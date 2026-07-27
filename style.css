@@ -5,6 +5,7 @@
     --muted: #b8aea2;
     --gold: #c59b5f;
     --purple: #5e17eb;
+    --blood-red: #850505;
     --line: rgba(255,255,255,0.08);
 }
 
@@ -299,4 +300,46 @@ h1 {
     h1 {
         font-size: 3.2rem;
     }
+}
+/* ========================= */
+/* DARK RED THEME */
+/* ========================= */
+
+.dark-red-theme:hover {
+
+    border-color: rgba(117, 35, 35, 0.5);
+
+    box-shadow:
+        0 25px 70px rgba(117, 35, 35, 0.18);
+
+}
+
+.dark-red-theme .card-role {
+    color: var(--dark-red);
+}
+
+.dark-red-theme h2 {
+    color: var(--dark-red);
+}
+
+
+/* ========================= */
+/* BLOOD RED THEME */
+/* ========================= */
+
+.blood-red-theme:hover {
+
+    border-color: rgba(133, 5, 5, 0.5);
+
+    box-shadow:
+        0 25px 70px rgba(133, 5, 5, 0.18);
+
+}
+
+.blood-red-theme .card-role {
+    color: var(--blood-red);
+}
+
+.blood-red-theme h2 {
+    color: var(--blood-red);
 }
